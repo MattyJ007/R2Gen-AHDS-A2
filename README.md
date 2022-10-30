@@ -15,8 +15,8 @@ To make the repository easy to read, we removed the MIMIC data specific run inst
 - `numpy`
 - `java`
 
-## Download R2Gen
-You can see our improved trained model in `data/iu-xray-b-64-l-0005-g-2/model_best.pth`.
+## Download trained R2Gen model
+You can download our improved trained model [here](https://drive.google.com/file/d/1P2YZwl0IP77xkmhvViJRjh3DKYdtlwgd/view?usp=sharing)
 
 ## Datasets
 We use the IU X-Ray dataset in our evaluation.

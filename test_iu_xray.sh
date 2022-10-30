@@ -14,4 +14,4 @@ python main_test.py \
 --step_size 50 \
 --gamma 0.2 \
 --seed 9223 \
---load data/iu_xray-batch-64-l-0005-g-2/model_best.pth
+--load data/iu_xray/model_best.pth
