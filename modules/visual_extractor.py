@@ -12,6 +12,7 @@ class VisualExtractor(nn.Module):
         modules = list(model.children())[:-2]
         self.model = nn.Sequential(*modules)
         self.avg_fnt = torch.nn.AvgPool2d(kernel_size=7, stride=1, padding=0)
+        self.model.requires_grad_(False)
 
     def forward(self, images):
         patch_feats = self.model(images)
